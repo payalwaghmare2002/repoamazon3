@@ -1,0 +1,51 @@
+<html>
+  <title>Payment page</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+ 
+<div class="container">
+  <center><h2>Payment</h2></center>
+  <button type="button" class="btn btn-default btn-sm">
+          <a href="home.html"><span class="glyphicon glyphicon-circle-arrow-left"></span> GO BACK
+</button></a>
+<center>
+  <div class="card">
+    <div class="card-header"><img src="card.png">                          
+	<div class="container">
+	<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+     Payment Options
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Debit Card</a>
+      <a class="dropdown-item" href="#">Credit Card</a>
+      <a class="dropdown-item" href="#">Net banking</a>
+    </div>
+	</div>
+</div>
+</div>
+	</div>
+    <div class="card-body">
+		<div class="container">
+		<form>
+		<label for="name"><b>Name Of card</b></label>
+		<input type="text" placeholder="Enter Card Name" name="name" required><br><br>
+
+		<label for="number"><b>Card Number</b></label>
+		<input type="text" placeholder="Enter Card Number" name="number" required><br><br>
+	
+		<label for="cvv"><b>CVV</b></label>
+		<input type="password" placeholder="Enter CVV" name="CVV" required><br><br>
+		
+		<label for="expdate"><b>Date of expiry</b></label>
+		<input type="date" placeholder="Enter Date of expiry" name="expdate" required><br><br>
+	</form>
+	</div>
+</div> 
+    <div class="card-footer"><button type="submit"> <a href="submit.html">Make A Payment</a></button></div></center>
+</div>
+</div>
+</body>
+</html>
