@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="deals.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.min.js"></script>
+<style>
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="nav-link" href="index.html" color="white"><font face="cambrila" size="5px" color="white">Home</font></a>
+</nav><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+	  <img border="2" src="fashion1.jfif" width="350" height="350">
+    </div>
+    <div class="col-sm-6">
+	  <p><font size="8px">Women Maxi Dark Blue, Gold Dress<br> ₹ 500 </font><h4 style="color:navy;">Get Latest Price</h4>
+	  <p class="fa fa-star checked">
+<p class="fa fa-star checked">
+<p class="fa fa-star checked">
+<p class="fa fa-star checked">
+<p class="fa fa-star "></p>
+	  <table class="table">
+    <tbody>
+      <tr>
+        <td>Color</td>
+        <td>Dark Blue (Golden print)</td>
+      </tr>
+      <tr>
+      </tr>
+    </tbody>
+  </table>
+	 </p>
+    </div> 
+    <div class="col-sm-2">
+		<div class="card"><br><br>
+			<center><b><h3>Price : &#8377; 500.00 </b></h3>
+			<p style="font-size:20px"><label>Quantity : &emsp;</label>
+			<select>
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+			</select></p><br><br>
+			<button type="button" class="btn btn-warning btn-circle btn-sm" ><font size="3px" color="navy">Buy Now</font></button><br><br>
+			<button class="btn btn-success btn-circle btn-sm" onclick="cartAlert()"><font color="white"><font size="3px" color="navy">Add to cart &#128722;</font></a></button><br><br> 
+			<button class="btn btn-secondary btn-circle btn-sm" onclick="wishlistAlert()"><font color="white"><font size="3px" color="white">Add to wishlist &#10084;</font></a></button><br><br> <br><br> 
+			</center>
+		</div>
+	</div>
+
+<div class="main">
+<hr/>
+<h1><b>R<font size="5px" face="cambrila">elated Products</font></b></h1>
+
+<div id="myBtnContainer">
+  <button class="btn1 active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn1" onclick="filterSelection('women')"> Women's Dresses</button>
+  <button class="btn1" onclick="filterSelection('men1')"> Men's Dresses</button>
+  <button class="btn1" onclick="filterSelection('kids')"> Kid's Dresses</button>
+</div>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column women">
+    <div class="content">
+      <img src="dfashion1.jpeg" height="200px" width="100%">
+      <h4>Crepe Embroidered Kurta & Churidar Material</h4>
+      <p><b>&#8377; 1,000.00 </b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p>
+	  </p>
+    </div>
+  </div>
+  <div class="column men1">
+    <div class="content">
+    <img src="dfashion3.jpg" height="200px" width="100%">
+      <h4>Fugazee Men’s Faux Fur Denim Jacket</h4>
+      <p><b>&#8377; 1,500.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked"></p></p>
+    </div>
+  </div>
+  <div class="column kids">
+    <div class="content">
+    <img src="fashion11.jpg" height="200px" width="100%">
+      <h4>Girl's Georgette Party Wear Dress</h4>
+      <p><b>&#8377; 1,700.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column kids">
+    <div class="content">
+    <img src="fashion9.jpg" height="200px" width="100%">
+      <h4> Kids Cotton Blend Dhoti<br> Kurta Set For Boys</h4>
+      <p><b>&#8377; 1,200.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column women">
+    <div class="content">
+    <img src="fashion7.jpg" height="200px" width="100%">
+      <h4>Maroon One Piece Dress Short  </h4>
+      <p><b>&#8377; 1,500.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column women">
+    <div class="content">
+    <img src="fashion5.jpg" height="200px" width="100%">
+      <h4>Black Georgette Dress for Women</h4>
+      <p><b>&#8377; 2,200.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column women">
+    <div class="content">
+    <img src="fashion10.jpg" height="200px" width="100%">
+      <h4>Peach Chanderi Cotton Woven Saree </h4>
+      <p><b>&#8377; 1,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column women">
+    <div class="content">
+    <img src="fashion18.jpg" height="200px" width="100%">
+      <h4>Women Hoodies Letter Printed Casual Sweatshirts</h4>
+      <p><b>&#8377; 900.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column women">
+    <div class="content">
+    <img src="dfashion2.jpg" height="200px" width="100%">
+      <h4>Long Dress made out of old and damaged saree</h4>
+      <p><b>&#8377; 900.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  
+  <div class="column men1">
+    <div class="content">
+      <img src="fashion2.jpg" height="200px" width="100%">
+      <h4>Floral Printed Asymmetric Sherwani With Dhoti</h4>
+      <p><b>&#8377; 2,300.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked"></p></p>
+    </div>
+  </div>
+  <div class="column men1">
+    <div class="content">
+    <img src="fashion17.jpg" height="200px" width="100%">
+      <h4>Smart looking and Semi-formal dresses for Men's</h4>
+      <p><b>&#8377; 1,500.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  
+  <div class="column men1">
+    <div class="content">
+    <img src="fashion8.jpg" height="200px" width="100%">
+      <h4>Round neck causal T-shirt for men (Black)</h4>
+      <p><b>&#8377; 400.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+
+  <div class="column men1">
+    <div class="content">
+      <img src="fashion16.jpg" height="200px" width="100%">
+      <h4>Official Causal suit for Mens</h4>
+      <p><b>&#8377; 3,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked"></p></p>
+    </div>
+  </div>
+  <div class="column men1">
+    <div class="content">
+    <img src="fashion6.jpg" height="200px" width="100%">
+      <h4>Men's Cotton Hoodie with Pouch Pockets Sweatshirt</h4>
+      <p><b>&#8377; 1,800.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked"></p></p>
+    </div>
+  </div>
+  
+  <div class="column kids">
+    <div class="content">
+    <img src="fashion3.jpg" height="200px" width="100%">
+      <h4>Fluffy Baby Pink Frock for Kids</h4>
+      <p><b>&#8377; 800.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column kids">
+    <div class="content">
+    <img src="fashion4.jfif" height="200px" width="100%">
+      <h4>Full Sleeves Shirt and Trousers Party Wear</h4>
+      <p><b>&#8377; 1,500.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column kids">
+    <div class="content">
+    <img src="fashion13.jpg" height="200px" width="100%">
+      <h4>Daily wear dresses for kids</h4>
+      <p><b>&#8377; 1,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column kids">
+    <div class="content">
+    <img src="fashion14.jpg" height="200px" width="100%">
+      <h4> Girl kid daily wear dresses</h4>
+      <p><b>&#8377; 1,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+		function cartAlert(){
+			$(".bootstrap-growl").remove();
+			$.bootstrapGrowl("Success! Product added to cart successfully...",{
+			type: "success",
+			offset: {from: "top",amount:80},
+			align: "center",
+			width: 500,
+			delay: 5000,
+			allow_dismiss: true
+			});
+		}
+		function wishlistAlert(){
+			$(".bootstrap-growl").remove();
+			$.bootstrapGrowl("Product added to wishlist successfully...",{
+			type: "dark",
+			offset: {from: "top",amount:80},
+			align: "center",
+			width: 500,
+			delay: 5000,
+			allow_dismiss: true
+			});
+		}
+</script>	
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="deals.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.0/jquery.bootstrap-growl.min.js"></script>
+<style>
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="nav-link" href="index.html" color="white"><font face="cambrila" size="5px" color="white">Home</font></a>
+</nav><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+	  <img border="2" src="offer8.jpeg" width="350" height="450">
+    </div>
+    <div class="col-sm-6">
+	  <p><font size="8px">Kamdhenu art & craft Wooden Home Temple <br>₹2,000 <font size="5px"><strike>₹2,800</font></strike></font>
+	  <p class="fa fa-star checked">
+		<p class="fa fa-star checked">
+		<p class="fa fa-star checked">
+		<p class="fa fa-star checked">
+		<p class="fa fa-star "></p>
+	<table class="table">
+    <tbody>
+      <tr>
+        <td>Color</td>
+        <td>Beige</td>
+      </tr>
+      <tr>
+        <td>Item Dimensions<br>L x W x H</td>
+        <td>38.1 x 20.3 x 45.7 CM</td>
+      </tr>
+	  <tr>
+        <td>Item weight</td>
+        <td>3000 Grams</td>
+      </tr>
+      <tr>
+        <td>Material</td>
+        <td>Wood</td>
+      </tr>
+	  <tr>
+        <td>Brand</td>
+        <td>Kamdhenu Art & Craft</td>
+      </tr>
+	  <tr>
+        <td>Mounting Type</td>
+        <td>Wall Mount</td>
+      </tr>
+    </tbody>
+  </table>
+	 </p>
+    </div> 
+    <div class="col-sm-2">
+		<div class="card"><br><br>
+			<center><b><h3>Price : &#8377; 2,000.00 </b></h3>
+			<p style="font-size:20px"><label>Quantity : &emsp;</label>
+			<select>
+				<option> 1 </option>
+				<option> 2 </option>
+				<option> 3 </option>
+				<option> 4 </option>
+				<option> 5 </option>
+			</select></p><br><br>
+			<button type="button" class="btn btn-warning btn-circle btn-sm" ><font size="3px" color="navy">Buy Now</font></button><br><br>
+			<button class="btn btn-success btn-circle btn-sm" onclick="cartAlert()"><font color="white"><font size="3px" color="navy">Add to cart &#128722;</font></a></button><br><br> 
+			<button class="btn btn-secondary btn-circle btn-sm" onclick="wishlistAlert()"><font color="white"><font size="3px" color="white">Add to wishlist &#10084;</font></a></button><br><br> <br><br> 
+			</center>
+		</div>
+</div>
+
+<div class="main">
+<hr/>
+<h1><b>R<font size="5px" face="cambrila">elated Products</font></b></h1>
+<div id="myBtnContainer">
+  <button class="btn1 active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn1" onclick="filterSelection('marble')"> Marble Temple</button>
+  <button class="btn1" onclick="filterSelection('Wooden')"> Wooden Temple</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column marble">
+    <div class="content">
+      <img src="temple1.jpg" height="250px" width="100%">
+      <h4>Golden Colour Painted Hindu White Marble Temple</h4>
+      <p><b>&#8377; 6,000.00 </b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p>
+	  </p>
+    </div>
+  </div>
+  <div class="column marble">
+    <div class="content">
+    <img src="temple2.jpg" height="250px" width="100%">
+      <h4>Kamdhenu art and craft Wood Home Temple (22x11x28inch)</h4>
+      <p><b>&#8377; 4,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column marble">
+    <div class="content">
+    <img src="temple3.jpg" height="250px" width="100%">
+      <h4>Marble Temple White Fine Marble Stone Temple With Cut Work  </h4>
+      <p><b>&#8377; 20,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked"></p></p>
+    </div>
+  </div>
+  
+  <div class="column Wooden">
+    <div class="content">
+      <img src="temple4.jfif" height="250px" width="100%">
+      <h4>Toxen 3 Ply MDF Wooden Temple with Lotus with Om Carving Design for Home</h4>
+      <p><b>&#8377; 780.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column Wooden">
+    <div class="content">
+    <img src="temple5.jpg" height="250px" width="100%">
+      <h4>Malwa Craft Wooden Temple with Led Bulb for home (18 x 22 x 9 CM)</h4>
+      <p><b>&#8377; 2,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+  <div class="column Wooden">
+    <div class="content">
+    <img src="temple6.jpg" height="250px" width="100%">
+      <h4>Aarsun Sheesham Pooja Wooden Mandir | Prayer Units | Handicrafts</h4>
+      <p><b>&#8377; 7,000.00</b>
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star checked">
+	  <p class="fa fa-star ">
+	  <p class="fa fa-star "></p></p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+		function cartAlert(){
+			$(".bootstrap-growl").remove();
+			$.bootstrapGrowl("Success! Product added to cart successfully...",{
+			type: "success",
+			offset: {from: "top",amount:80},
+			align: "center",
+			width: 500,
+			delay: 5000,
+			allow_dismiss: true
+			});
+		}
+		function wishlistAlert(){
+			$(".bootstrap-growl").remove();
+			$.bootstrapGrowl("Product added to wishlist successfully...",{
+			type: "dark",
+			offset: {from: "top",amount:80},
+			align: "center",
+			width: 500,
+			delay: 5000,
+			allow_dismiss: true
+			});
+		}
+</script>	
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+</body>
+</html>
